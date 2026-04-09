@@ -10,14 +10,15 @@ running = False
 buchstaben = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"]
 
 layout = [
-    [sg.Checkbox("Maus bewegen",  default=True, key="-MOVE-")],
-    [sg.Checkbox("Linksklick",    default=True, key="-LCLICK-")],
-    [sg.Checkbox("Rechtsklick",   default=True, key="-RCLICK-")],
-    [sg.Checkbox("Doppelklick",   default=True, key="-DCLICK-")],
-    [sg.Checkbox("Mausradklick",  default=True, key="-MCLICK-")],
+    [sg.Checkbox("Mouse Move",  default=True, key="-MOVE-")],
+    [sg.Checkbox("Leftclick",    default=True, key="-LCLICK-")],
+    [sg.Checkbox("Rightclick",   default=True, key="-RCLICK-")],
+    [sg.Checkbox("Doubleklick",   default=True, key="-DCLICK-")],
+    [sg.Checkbox("Scrollwheel",  default=True, key="-MCLICK-")],
     [sg.Checkbox("Windows-Key",   default=True, key="-WINDOWS-")],
+    [sg.Checkbox("Keyboard",     default=True,  key="-KB-")],
     [sg.Checkbox("Alt + F4",      default=False, key="-ALT4-")],
-    [sg.Button("Starten", key="-TOGGLE-")],
+    [sg.Button("Start", key="-TOGGLE-")],
 ]
 
 window = sg.Window("Mouse Chaos", layout)
@@ -46,6 +47,9 @@ def run_loop(values):
                 pygui.click(button="middle")
             elif key == "-WINDOWS-":
                 pygui.press("win")
+            elif key == "-KB-":
+                x = buchstaben[random.randint(0, 26)]
+                pygui.press(x) 
             elif key == "-ALT4-":
                 pygui.hotkey("alt", "f4")
         time.sleep(1)
