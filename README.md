@@ -68,9 +68,19 @@ Built with Python 3 and the following libraries:
 
 ---
 
-## Disclaimer
+## Disclaimer of Liability and Warranty
 
-For fun use only – and only on your own PC or with explicit permission! 😄
+For fun use only! 😄
+
+This software is provided free of charge and “as is”, without any express or implied warranties of any kind, including but not limited to warranties of merchantability, fitness for a particular purpose, non-infringement, or accuracy.
+
+The author shall not be held liable for any direct, indirect, incidental, special, exemplary, or consequential damages (including but not limited to loss of data, loss of profits, business interruption, or system failure) arising out of or in connection with the use of, or inability to use, this software, even if the author has been advised of the possibility of such damages.
+
+Use of this software is at your own risk. The entire risk as to the quality and performance of the software lies with the user. The author does not guarantee that the software will be error-free, secure, or operate without interruption.
+
+By using this software, you agree that the author bears no responsibility or liability for any damages or losses resulting from its use.
+
+If you do not agree with these terms, you must not use this software.
 
 ---
 
