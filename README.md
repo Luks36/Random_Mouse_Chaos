@@ -68,7 +68,7 @@ Built with Python 3 and the following libraries:
 
 ---
 
-## Disclaimer of Liability and Warranty
+## Disclaimer
 
 For fun use only! 😄
 
