@@ -7,7 +7,8 @@ import keyboard
 
 running = False
 
-buchstaben = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"]
+letters = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"]
+numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
 
 layout = [
     [sg.Checkbox("Mouse Move",  default=True, key="-MOVE-")],
@@ -17,6 +18,7 @@ layout = [
     [sg.Checkbox("Scrollwheel",  default=True, key="-MCLICK-")],
     [sg.Checkbox("Windows-Key",   default=True, key="-WINDOWS-")],
     [sg.Checkbox("Keyboard",     default=True,  key="-KB-")],
+    [sg.Checkbox("Numbers",      default=True,  key="-NB-")],
     [sg.Checkbox("Alt + F4",      default=False, key="-ALT4-")],
     [sg.Button("Start", key="-TOGGLE-")],
 ]
@@ -48,8 +50,11 @@ def run_loop(values):
             elif key == "-WINDOWS-":
                 pygui.press("win")
             elif key == "-KB-":
-                x = buchstaben[random.randint(0, 26)]
+                x = random.choice(letters)
                 pygui.press(x) 
+            elif key == "-NB-":
+                x = random.choice(numbers)
+                pygui.write(str(x))
             elif key == "-ALT4-":
                 pygui.hotkey("alt", "f4")
         time.sleep(1)
