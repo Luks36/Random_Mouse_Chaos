@@ -53,7 +53,7 @@
 2. Click **"Start"** – let the chaos begin! 🎉
 3. Click **"Stop"** or press **`Q`** to end the chaos
 
-> 💡 **Tip:** If you lose control – press **`Q`** to stop everything instantly! Alternatively, **Ctrl + Shift + Esc** opens the Task Manager.
+> 💡 **Tip:** If you lose control – press **`Q`** to stop everything instantly! Alternatively, **Ctrl + Shift + Esc** opens the Task Manager. (Does not work under MacOS)
 
 ---
 
