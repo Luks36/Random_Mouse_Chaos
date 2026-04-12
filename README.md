@@ -64,7 +64,7 @@ Built with Python 3 and the following libraries:
 - [FreeSimpleGUI](https://github.com/spyoungtech/FreeSimpleGUI) – GUI
 - [pyautogui](https://github.com/asweigart/pyautogui) – Mouse & keyboard control
 - [keyboard](https://github.com/boppreh/keyboard) – Keyboard input
-- [PyInstaller](https://pyinstaller.org/) – Packaging as `.exe`
+- [PyInstaller](https://pyinstaller.org/) – Compiler
 
 ---
 
