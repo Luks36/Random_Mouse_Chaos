@@ -1,6 +1,6 @@
 # 🌪️ Random Mouse Chaos
 
-> A fun Windows tool that unleashes random mouse and keyboard actions on your PC – perfect for pranks or just for the laughs!
+> A fun tool that unleashes random mouse and keyboard actions on your PC – perfect for pranks or just for the laughs!
 
 ---
 
@@ -17,7 +17,7 @@
 
 ## About
 
-**Random Mouse Chaos** is a small fun project that performs random mouse and keyboard actions on your Windows PC. Just pick your chaos options, hit start – and watch your computer take on a life of its own. 😄
+**Random Mouse Chaos** is a small fun project that performs random mouse and keyboard actions on your PC. Just pick your chaos options, hit start – and watch your computer take on a life of its own. 😄
 
 > 📝 *This README was created with the help of [Claude AI](https://claude.ai) by Anthropic.*
 
@@ -41,9 +41,10 @@
 
 ## Download & Run
 
-1. Download `RMC_Windows.exe` from [Releases](../../releases)
-2. Double-click the `.exe` – no installation needed!
-3. If Windows SmartScreen shows a warning: **"More info" → "Run anyway"**
+1. Download `RMC_[OS]` from [Releases](../../releases)
+2. Double-click the file
+3. If MacOS asks for **"Accessibility features"**, go to **"Privacy & Security"**, and allow it
+4. If Windows SmartScreen shows a warning: **"More info" → "Run anyway"**
 
 ---
 
